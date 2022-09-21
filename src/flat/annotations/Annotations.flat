@@ -1,0 +1,7 @@
+package flat/annotations
+
+class {
+  public static main(String[] args) {
+
+  }
+}

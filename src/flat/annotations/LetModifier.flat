@@ -1,0 +1,7 @@
+package flat/annotations
+
+import flat/ast/AnnotationNode
+
+data class extends AnnotationNode implements Modifier {
+  override let visible lazy String[] aliases => Array<String>():add("let")
+}

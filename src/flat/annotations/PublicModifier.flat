@@ -4,7 +4,7 @@ import flat/ast/AnnotationNode
 
 data class extends AnnotationNode implements Modifier {
   override let static visible lazy String[] aliases => Array<String>():add("public")
-  override let static visible lazy String identifier => "Public"
+  override let static visible lazy String identifier => null
 
   override let visible String aliasUsed
 }

@@ -1,6 +1,6 @@
 package flat/annotations
 
 trait Modifier {
-  let static visible lazy String[] aliases => Array<String>()
-  let visible String aliasUsed
+  static visible lazy String[] aliases => Array<String>()
+  visible String aliasUsed
 }

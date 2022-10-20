@@ -3,7 +3,7 @@ package flat/annotations
 import flat/ast
 
 data class extends AnnotationNode {
-  override let static visible lazy String identifier => "Target"
+  override static visible lazy String identifier => "Target"
 
   visible String[] includes = Array()
   visible String[] excludes = Array()

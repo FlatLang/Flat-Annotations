@@ -3,8 +3,8 @@ package flat/annotations
 import flat/ast
 
 data class extends AnnotationNode implements Modifier {
-  override let static visible lazy String[] aliases => Array<String>():add("var")
-  override let static visible lazy String identifier => null
+  override static visible lazy String[] aliases => Array<String>():add("var")
+  override static visible lazy String identifier => null
 
-  override let visible String aliasUsed
+  override visible String aliasUsed
 }

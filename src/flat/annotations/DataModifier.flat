@@ -3,9 +3,9 @@ package flat/annotations
 import flat/ast
 
 data class extends AnnotationNode implements Modifier {
-  override let static visible lazy String[] aliases => Array<String>():add("data")
-  override let static visible lazy String identifier => null
+  override static visible lazy String[] aliases => Array<String>():add("data")
+  override static visible lazy String identifier => null
   override static visible lazy Array<Class<Node>> allowedNodeContexts => [FileNode.class]
 
-  override let visible String aliasUsed
+  override visible String aliasUsed
 }

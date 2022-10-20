@@ -1,6 +1,6 @@
 package flat/annotations
 
-import flat/ast/AnnotationNode
+import flat/ast
 
 data class extends AnnotationNode implements Modifier {
   override let static visible lazy String[] aliases => Array<String>():add("async")

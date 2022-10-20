@@ -1,0 +1,9 @@
+package flat/annotations
+
+import flat/ast/AnnotationNode
+
+data class extends AnnotationNode {
+  override let static visible lazy String identifier => "TestSuite"
+
+  visible String[][] classNames = String[][]
+}

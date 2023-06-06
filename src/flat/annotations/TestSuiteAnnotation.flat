@@ -3,8 +3,8 @@ package flat/annotations
 import flat/ast
 
 data class extends AnnotationNode {
-  override static visible lazy String identifier => "TestSuite"
-  override static visible lazy Array<Class<Node>> allowedBaseParents => [FileNode.class]
+    override static visible lazy String identifier => "TestSuite"
+    override static visible lazy Array<Class<Node>> allowedBaseParents => [FileNode.class]
 
-  visible String[][] classNames = String[][]
+    visible String[][] classNames = String[][]
 }

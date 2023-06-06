@@ -3,9 +3,9 @@ package flat/annotations
 import flat/annotations/Annotations
 
 testable class {
-  test `can create`() {
-    let value = Annotations()
+    test `can create`() {
+        let value = Annotations()
 
-    expect(value).toNotBe(null)
-  }
+        expect(value).toNotBe(null)
+    }
 }
